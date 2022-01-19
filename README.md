@@ -1,0 +1,1 @@
+This project contains lesson files for a private Python 101 course. 
