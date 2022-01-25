@@ -29,10 +29,19 @@
 #     print(s)
 #
 
-age = 15
-r = 0
-while age + r < 18:
-    print("keep waiting")
-    r += 1
-print(f"You need to wait {r} more years to vote.")
+# age = 15
+# r = 0
+# while age + r < 18:
+#     print("keep waiting")
+#     r += 1
+# print(f"You need to wait {r} more years to vote.")
 
+import random
+history = []
+while True:
+    n = random.randint(1, 1000)
+    print(history)
+    if n in history:
+        exit()
+    else:
+        history.append(n)
