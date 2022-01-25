@@ -36,10 +36,12 @@
 #     r += 1
 # print(f"You need to wait {r} more years to vote.")
 
-import random
+from random import randint as r
+
+
 history = []
 while True:
-    n = random.randint(1, 1000)
+    n = r(1, 1000)
     print(history)
     if n in history:
         exit()
